@@ -242,9 +242,7 @@
                 <dt>Traveling From:</dt>
                 <dd>Barcelona, Spain</dd>
               </dl>
-              <q>
-                "A very safe environment for all travelers."
-              </q>
+              <q> "A very safe environment for all travelers." </q>
             </div>
           </section>
           <section>
@@ -269,9 +267,7 @@
                 <dt>Traveling From:</dt>
                 <dd>Madrid, Spain</dd>
               </dl>
-              <q>
-                "Live, laugh, love-- everything you need in Majorca."
-              </q>
+              <q> "Live, laugh, love-- everything you need in Majorca." </q>
             </div>
           </section>
         </section>
@@ -385,80 +381,81 @@
       <section id="contact-us">
         <h2>Contact Us</h2>
         <span id="required">(*required)</span>
-
-        <div>
-          <label for="firstName">First Name<span>*</span></label>
-          <input id="firstName" name="firstName" type="text" required />
-        </div>
-        <div>
-          <label for="lastName">Last Name<span>*</span></label>
-          <input id="LastName" name="lastName" type="text" required />
-        </div>
-        <div>
-          <label for="email">Email<span>*</span></label>
-          <input id="email" name="Email" type="email" required />
-        </div>
-        <div>
-          <label for="phone">Phone<span>*</span></label>
-          <input id="phone" name="Phone" type="tel" required />
-        </div>
-        <fieldset id="preferred-contact">
-          <legend>Preferred Contact Method<span>*</span></legend>
+        <form>
           <div>
-            <input
-              id="emailOpt"
-              name="preferred-contact"
-              value="email"
-              type="radio"
-            />
-            <label for="emailOpt">Email</label>
+            <label for="firstName">First Name<span>*</span></label>
+            <input id="firstName" name="firstName" type="text" required />
           </div>
           <div>
-            <input
-              id="textOpt"
-              name="preferred-contact"
-              value="text"
-              type="radio"
-            />
-            <label>Text</label>
+            <label for="lastName">Last Name<span>*</span></label>
+            <input id="LastName" name="lastName" type="text" required />
           </div>
           <div>
-            <input
-              id="phoneOpt"
-              name="preferred-contact"
-              value="phone"
-              type="radio"
-            />
-            <label>Phone</label>
+            <label for="email">Email<span>*</span></label>
+            <input id="email" name="Email" type="email" required />
           </div>
-        </fieldset>
-        <fieldset id="destination">
-          <legend>Destination<span>*</span></legend>
-          <select id="select-destination">
-            <option>Choose</option>
-            <option>Barcelona</option>
-            <option>Granada</option>
-            <option>Ibiza</option>
-            <option>Madrid</option>
-            <option>Majorca</option>
-            <option>Seville</option>
-            <option>Tenerife</option>
-            <option>Valencia</option>
-            <option>Other</option>
-          </select>
-        </fieldset>
-        <fieldset id="travelTime">
-          <legend>Travel Time<span>*</span></legend>
-          <select id="select-travel-time">
-            <option>Choose</option>
-            <option>Fall</option>
-            <option>Winter</option>
-            <option>Spring</option>
-            <option>Summer</option>
-            <option>Flexible</option>
-          </select>
-        </fieldset>
-        <input id="submit" type="submit" name="Submit" />
+          <div>
+            <label for="phone">Phone<span>*</span></label>
+            <input id="phone" name="Phone" type="tel" required />
+          </div>
+          <fieldset id="preferred-contact">
+            <legend>Preferred Contact Method<span>*</span></legend>
+            <div>
+              <input
+                id="emailOpt"
+                name="preferred-contact"
+                value="email"
+                type="radio"
+              />
+              <label for="emailOpt">Email</label>
+            </div>
+            <div>
+              <input
+                id="textOpt"
+                name="preferred-contact"
+                value="text"
+                type="radio"
+              />
+              <label>Text</label>
+            </div>
+            <div>
+              <input
+                id="phoneOpt"
+                name="preferred-contact"
+                value="phone"
+                type="radio"
+              />
+              <label>Phone</label>
+            </div>
+          </fieldset>
+          <fieldset id="destination">
+            <legend>Destination<span>*</span></legend>
+            <select id="select-destination">
+              <option>Choose</option>
+              <option>Barcelona</option>
+              <option>Granada</option>
+              <option>Ibiza</option>
+              <option>Madrid</option>
+              <option>Majorca</option>
+              <option>Seville</option>
+              <option>Tenerife</option>
+              <option>Valencia</option>
+              <option>Other</option>
+            </select>
+          </fieldset>
+          <fieldset id="travelTime">
+            <legend>Travel Time<span>*</span></legend>
+            <select id="select-travel-time">
+              <option>Choose</option>
+              <option>Fall</option>
+              <option>Winter</option>
+              <option>Spring</option>
+              <option>Summer</option>
+              <option>Flexible</option>
+            </select>
+          </fieldset>
+          <input id="submit" type="submit" name="Submit" />
+        </form>
       </section>
       <section id="legal">
         <h2>Legal</h2>
